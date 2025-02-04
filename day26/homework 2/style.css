@@ -1,0 +1,11 @@
+img{
+    height: 326px;
+    width: 400px;
+    }
+    body{
+        background-color: rgb(6, 255, 6);
+    }
+    button{
+        background-color: black;
+        color: rgb(0, 255, 0);
+    }

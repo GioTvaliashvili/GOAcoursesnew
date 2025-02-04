@@ -1,0 +1,38 @@
+#GOA{
+    background-color: blue;
+    color: rgb(5, 255, 5);
+    text-align: center;
+    text-decoration: underline;
+    font-family:'Courier New', Courier, monospace
+    tex
+    
+}
+h3.bmw{
+    color: red;
+}
+h3.mazerati{
+    color: purple;
+
+}
+img{
+    height: 300px;
+
+}
+h3.gio{
+    color: rgb(7, 255, 7);
+}
+h1.come3{
+    background-color: rgb(237, 254, 1);
+    color: grey;
+    text-align: center;
+}
+h2{
+    color: aqua;
+}
+table{
+    background-color: aqua;
+    color: rgb(5, 156, 5);
+}
+body{
+    background-color: rgb(47, 171, 36);
+}

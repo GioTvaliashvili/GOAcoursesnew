@@ -1,0 +1,10 @@
+A = int(input("Enter a number: "))
+B = int(input("Enter a second number: "))
+C = int(input("Enter a third number: "))
+D= int(input("Enter a  fourth number: "))
+E= int(input("Enter a fifth number: "))
+print(A + D)
+print(E - B)
+print(C * A)
+print(B / D)
+

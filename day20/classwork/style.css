@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+}
+
+
+
+h1{
+    color: blue;
+}
+a{
+    color: red;
+}
+u{
+    color: green;
+}
+i{
+    color: greenyellow;
+}
+p{
+    color: rgb(137, 214, 236);
+    
+}
+h2{
+    color: blueviolet;
+}
+table{
+    color: green;
+}
+tr{
+    color: cyan;
+}
+td{
+    color: blue;
+}
+h3{
+    text-align: header;
+    color: aqua;
+}
+
+
+
+
+
+
+
+
+

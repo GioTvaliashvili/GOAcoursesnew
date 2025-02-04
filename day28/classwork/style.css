@@ -1,0 +1,27 @@
+.yellow{
+    color: yellow;
+}
+.green{
+    color: green;
+}
+.blue{
+    color: blue;
+}
+.white{
+    color: white;
+}
+.purel{
+    color: purple;
+}
+.pink{
+    color: rgb(235, 100, 122);
+}
+.red{
+    color: red;
+}
+body{
+    background-color: black;
+}
+p{
+    text-align: center;
+}

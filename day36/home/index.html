@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background: linear-gradient(45deg, #00fbff, #fb00ff);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+            background-color: #26a69a;
+            color: white;
+            text-align: left;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        th, td {
+            padding: 15px;
+        }
+
+        th {
+            background-color: #00796b;
+        }
+
+        tr:nth-child(even) {
+            background-color: #2bbbad;
+        }
+    </style>
+    <title>ფიქსირებული ცხრილის თავი</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>კომპანია</th>
+                <th>ფასი</th>
+                <th>ცვლილება</th>
+                <th>ცვლილების %</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>ავსტრალიური კომპანია</td>
+                <td>1.38 $</td>
+                <td>+2.01</td>
+                <td>-0.36%</td>
+            </tr>
+            <tr>
+                <td>აუსენკო</td>
+                <td>2.38 $</td>
+                <td>-0.01</td>
+                <td>-1.36%</td>
+            </tr>
+            <tr>
+                <td>ადელაიდე</td>
+                <td>3.22 $</td>
+                <td>+0.01</td>
+                <td>+1.36%</td>
+            </tr>
+            <tr>
+                <td>ადიტია ბირლა</td>
+                <td>1.02 $</td>
+                <td>-1.01</td>
+                <td>+2.36%</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
