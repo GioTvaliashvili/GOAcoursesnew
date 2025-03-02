@@ -1,0 +1,328 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+h1 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: -1.25px;
+    
+}
+
+.secondpart {
+    background-color: #651e4f;
+    height: 263px;
+
+}
+.pages {
+    position: fixed;
+    bottom: 900px;
+    margin-left: 1500px;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 12px;
+ 
+    
+
+}
+button {
+  background-color: #c2633c;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    width: 50px;
+} 
+.logo {
+    position: fixed;
+    bottom: 819px;
+    cursor: pointer;
+    color: white;
+    width: 205px;
+
+}
+
+.text {
+    position: absolute;
+    bottom: 300px;
+    margin-left: 650px;
+    color: white;
+    font-size: 30px;
+    line-height: 90px;
+    line-height: 90px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: 'Arvo', serif;
+}
+.btnn{
+    position: absolute;
+    background-color: #cc4900;
+    font-size: 16px;
+    line-height: 25.6px;
+    box-shadow: none;
+    border-radius: 27px;
+    text-align: center;
+    height: 40px;
+    width: 250px;
+    margin-left: 200px;
+}
+
+.textt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 157px;
+    font-size: 23px;
+    line-height: 29.9px;
+}
+.sumbit {
+    background-color: #cc4900;
+    line-height: 20.8px;
+    border-radius: 10px;
+    width: 200px;
+    height: 40px;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+ 
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+
+.center {
+    text-align: center;
+    margin-top: 50px;
+}
+
+input {
+    width: 300px;
+    height: 40px;
+    font-size: 18px;
+    margin: 10px;
+    padding: 5px;
+}
+
+
+
+
+@media (max-width: 600px) {
+    body {
+        font-size: 0.9rem; 
+    }
+
+    header, .content, footer {
+        padding: 0.5rem;
+    }
+}
+
+
+
+@media (max-with: 770px) {
+    header {
+        background-color: red;
+        display: none;
+
+    
+    }
+    
+    main{
+        flex-direction: column;
+    }
+
+    main img{
+        width: 450px;
+        height: 500px;
+        border-radius: 50%;
+        margin-top: 30px;
+    }
+}
+
+
+@media (max-with: 320px) {
+    main img{
+        width: 250px;
+        height: 250px;
+    }
+
+    main p{
+        width:  300px;
+        font-size: 1.5em;
+    }
+}
+
+
+
+@media (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}
+
+
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+
+@media (min-width: 1025px) {
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+}
+
+
+@media (max-width: 768px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        flex: 1;
+        margin-top: 20px;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        flex: 1;
+        margin-top: 20px;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+
+@media (max-width: 1024px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        flex: 1;
+        margin-top: 20px;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+
+@media (min-width: 1366px) {
+    .main {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .content {
+        flex: 0 0 70%; /* Main content takes up 70% */
+    }
+
+    .sidebar {
+        flex: 0 0 300px; /* Sidebar remains 300px wide */
+    }
+}
+
+
+.sandroshugladze{
+    img{
+        height: 500px;
+        width: 500px;
+        align-items: right 500px ;
+    }
+
+
+    button{
+        background-color: #c2633c;
+         
+            display: block;
+            margin: 10px auto; 
+            height: 50px;
+            width: 100px;
+            color: white;
+            
+        
+    
+    }
+}
+
+
+
+
+
+.ik{
+ 
+    
+    background-image: url('https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/450406/settings_images/QA0v53X7QCqYIYEaR7FJ_about-kristina-kajabi-image.jpg'); 
+   
+    background-repeat: no-repeat;
+  
+
+
+
+}
+
+.kaka{
+    height: 400px;
+    width: 400px;
+    margin-left: 300px;
+    background-repeat: no-repeat;
+    background-image: url('Screenshot\ 2025-03-01\ 153129.png');
+    position: relative;
+    display: inline-block;
+}
+
+
+
+.overlay-text {
+    position: absolute;
+    bottom: ; 
+   
+    color: rgb(0, 0, 0); 
+    font-size: 24px;
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.5); 
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+  main{
+    background-color: #c2633c;
+    color: black;
+  }
+  
