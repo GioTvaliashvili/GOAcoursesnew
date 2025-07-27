@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+// let prices = [10, 20, 30, 40];
+// let increase = 5;
+
+// for (let i = 0; i < prices.length; i++) {
+//   prices[i] += increase;
+// }
+
+// console.log(prices);
+
+ 
+ 
+  // function formatDateTime(date) {
+  //   const pad = (n) => String(n).padStart(2, '0');
+  //   return `${date.getFullYear()}-${pad(date.getMonth() +1)}-${pad(date.getDate())} ` +
+  //          `${pad(date.getHours())}:${pad(date.getMinutes())}:${pad(date.getSeconds())}`;
+  // }
+
+
+  // function updateCurrentDateTime() {
+  //   const now = new Date();
+  //   document.getElementById('currentDateTime').textContent = formatDateTime(now);
+  // }
+  // updateCurrentDateTime();
+  // setInterval(updateCurrentDateTime, 1000);
+
+ 
+  // const birthdateInput = document.getElementById('birthdate');
+  // birthdateInput.max = new Date().toISOString().split('T')[0];
+
+  // function calculateAge() {
+  //   const birthStr = birthdateInput.value;
+  //   const resultDiv = document.getElementById('ageResult');
+
+  //   if (!birthStr) {
+  //     resultDiv.textContent = 'გთხოვთ, შეიყვანეთ დაბადების თარიღი.';
+  //     return;
+  //   }
+
+  //   const birthDate = new Date(birthStr);
+  //   const now = new Date();
+
+  //   if (birthDate > now) {
+  //     resultDiv.textContent = 'დაბადების თარიღი მომავალში არ უნდა იყოს.';
+  //     return;
+  //   }
+
+  //   let years = now.getFullYear() - birthDate.getFullYear();
+  //   let months = now.getMonth() - birthDate.getMonth();
+  //   let days = now.getDate() - birthDate.getDate();
+
+  //   if (days < 0) {
+  //     months--;
+
+  //     const prevMonthLastDay = new Date(now.getFullYear(), now.getMonth(), 0).getDate();
+  //     days += prevMonthLastDay;
+  //   }
+  //   if (months < 0) {
+  //     years--;
+  //     months += 12;
+  //   }
+
+  //   resultDiv.textContent = `ასაკი: ${years} წელი, ${months} თვე და ${days} დღე`;
+  // }
+
+  // document.getElementById('calcAgeBtn').addEventListener('click', calculateAge);
+
+
+  // function showDayOfWeek() {
+  //   const dateStr = document.getElementById('inputDate').value;
+  //   const dayResult = document.getElementById('dayResult');
+
+  //   if (!dateStr) {
+  //     dayResult.textContent = 'გთხოვთ, აირჩიოთ თარიღი.';
+  //     return;
+  //   }
+
+  //   const date = new Date(dateStr);
+  //   const days = ['კვირა', 'ორშაბათი', 'სამშაბათი', 'ოთხშაბათი', 'ხუთშაბათი', 'პარასკევი', 'შაბათი'];
+  //   const dayName = days[date.getDay()];
+
+  //   dayResult.textContent = `კვირის დღე: ${dayName}`;
+  // }
+
+  // document.getElementById('showDayBtn').addEventListener('click', showDayOfWeek);
+
+
+      
+  // let secondsElapsed = 0;
+  // const timerEl = document.getElementById('timer');
+  // setInterval(() => {
+  //   secondsElapsed++;
+  //   timerEl.textContent = secondsElapsed;
+  // }, 1000);
+
+  // function formatTime(date) {
+  //   return date.toLocaleTimeString('en-GB'); 
+  // }
+  // const currentTimeEl = document.getElementById('currentTime');
+  // function updateCurrentTime() {
+  //   const now = new Date();
+  //   currentTimeEl.textContent = formatTime(now);
+  // }
+  // updateCurrentTime();
+  // setInterval(updateCurrentTime, 1000);
+
+
+  // setInterval(() => {
+  //   const randNum = Math.random();
+  //   console.log(`Random number: ${randNum}`);
+  // }, 1000);
+
+
+//  const msgInput = document.getElementById('msgInput');
+//   const delayInput = document.getElementById('delayInput');
+//   const output = document.getElementById('output');
+//   const btn = document.getElementById('showMsgBtn');
+//   let timeoutId;
+
+//   btn.addEventListener('click', () => {
+//     // Clear previous message & timeout
+//     output.textContent = '';
+//     if (timeoutId) clearTimeout(timeoutId);
+
+//     const message = msgInput.value.trim();
+//     const delay = Number(delayInput.value);
+
+//     if (!message) {
+//       alert('Please enter a message.');
+//       return;
+//     }
+//     if (isNaN(delay) || delay < 0) {
+//       alert('Please enter a valid non-negative delay.');
+//       return;
+//     }
+
+//     timeoutId = setTimeout(() => {
+//       output.textContent = message;
+//     }, delay);
+//   });
+
+
+
+// function greetAfterDelay() {
+//   setTimeout(() => {
+//     console.log("Hello! This is a delayed greeting.");
+//   }, 2000); 
+// }
+
+
+// greetAfterDelay();
+
+
+// function logMessage1() {
+//   console.log("Message 1: Starting the chain...");
+// }
+
+// function logMessage2() {
+//   console.log("Message 2: Still going...");
+// }
+
+// function logMessage3() {
+//   console.log("Message 3: Almost done!");
+// }
+
+// function logMessage4() {
+//   console.log("Message 4: Chain complete!");
+// }
+
+
+// function runChain() {
+//   setTimeout(() => {
+//     logMessage1();
+    
+//     setTimeout(() => {
+//       logMessage2();
+
+//       setTimeout(() => {
+//         logMessage3();
+
+//         setTimeout(() => {
+//           logMessage4();
+//         }, 1000); 
+
+//       }, 1000); 
+
+//     }, 1000); 
+
+//   }, 1000); 
+// }
+
+// runChain();
+
+
+// function logMessage1() {
+//   console.log("Message 1: Starting the chain...");
+// }
+
+// function logMessage2() {
+//   console.log("Message 2: Still going...");
+// }
+
+// function logMessage3() {
+//   console.log("Message 3: Almost done!");
+// }
+
+// function logMessage4() {
+//   console.log("Message 4: Chain complete!");
+// }
+
+
+// function runChainWithTimeouts() {
+//   setTimeout(() => {
+//     logMessage1();
+
+//     setTimeout(() => {
+//       logMessage2();
+
+//       setTimeout(() => {
+//         logMessage3();
+
+//         setTimeout(() => {
+//           logMessage4();
+//         }, 1000);
+
+//       }, 1000);
+
+//     }, 1000);
+
+//   }, 1000);
+// }
+
+// runChainWithTimeouts();
+
+
+
+//  function updateGreeting() {
+//     const hour = new Date().getHours();
+//     let greet = "";
+
+//     if (hour < 12) {
+//       greet = "Good Morning";
+//     } else if (hour < 18) {
+//       greet = "Good Afternoon";
+//     } else {
+//       greet = "Good Evening";
+//     }
+
+//     document.getElementById("greeting").textContent = greet;
+//   }
+
+//   updateGreeting();
+//   setInterval(updateGreeting, 1000);
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
