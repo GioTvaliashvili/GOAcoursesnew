@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>document</title>
+</head>
+<body>
+
+  <div id="example">Hello <b>World</b></div>
+
+  <button onclick="changeInnerHTML()">Change with innerHTML</button>
+  <button onclick="changeInnerText()">Change with innerText</button>
+
+  <script>
+    function changeInnerHTML() {
+      // HTML სტრუქტურა შეიცვლება
+      document.getElementById("example").innerHTML = "Hello <i>Georgia</i>";
+    }
+
+    function changeInnerText() {
+      // მხოლოდ ტექსტი შეიცვლება და თეგები
+      document.getElementById("example").innerText = "Hello <i>Georgia</i>";
+    }
+  </script>
+
+</body>
+</html>
