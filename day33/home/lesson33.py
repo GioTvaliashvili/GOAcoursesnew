@@ -19,17 +19,17 @@
 # list = [10,20,30,40,50,60,70,80,90]
 
 # list.append(100)
-# # print(list)
+# print(list)
 # list.insert(0,5)
-# # print(list)
+# print(list)
 # list.remove(30)
-# # print(list)
+# print(list)
 # list.reverse()
-# # print(list)
+# print(list)
 # list.index(5)
-# # print(list)
+# print(list)
 # index_of_50 = list.index(50)
-# # print(list)
+# print(list)
 
 # list.count(20)
 # print(list)
