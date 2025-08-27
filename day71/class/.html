@@ -1,0 +1,143 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>
+        .patara{
+            height: 100px;
+            width: 100px;
+            border: 5px solid black;
+        }
+        .didi{
+            
+            height: 1000px;
+            width: 1000px;
+            border: 5px solid black;
+        }
+
+        div{
+            height: 250px;
+            width: 250px;
+            border: 5px solid black;
+        }
+
+    </style>
+    
+    
+    
+    <script>
+        let div = document.querySelector('div')
+
+        function didi() {
+            div.classList.add('didi');
+            div.classList.remove('patara')
+        }
+
+         function patara() {
+            div.classList.add('patara');
+            div.classList.remove('didi')
+        }
+    </script>
+</head>
+<body>
+    <div></div>
+    <button onclick = "didi()">big</button>
+    <button onclick = "patara()">little</button>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <style>
+        div{
+            height: 250px;
+            width: 250px;
+            border: 5px solid black;
+        }
+
+        .big{
+            height: 1000px;
+            width: 1000px;
+            border: 5px solid black;
+        }
+
+
+                .little{
+            height: 50px;
+            width: 50px;
+            border: 5px solid black;
+        }
+
+        .NewButtonStyle{
+            background-color: aquamarine;
+            color: greenyellow;
+        }
+        base{
+            color: azure;
+            background-color: brown;
+            letter-spacing: 10 px;
+        }
+
+
+    </style>
+
+
+
+
+
+
+
+    <script>
+
+               let div = document.querySelector('div')
+
+        function big() {
+            div.classList.add('big');
+            div.classList.remove('little')
+        }
+
+         function little() {
+            div.classList.add('little');
+            div.classList.remove('big')
+        }
+
+
+        function color(){
+            div.classList.add('NewButtonStyle');
+            div.classList.remove('little');
+            div.classList.toggle('NewButtonStyle' , 'base')
+            
+        }
+        
+
+    </script>
+
+
+
+
+
+
+
+</head>
+<body>
+    <div></div>
+
+
+    <button onclick="big()">big</button>
+    <button onclick="little()">little</button>
+    <button onclick="color()">color</button>
+    
+
+
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>document</title>
+</head>
+<body>
+
+<script>
+ 
+  const button = document.createElement("button");
+  button.textContent = "Click Me";
+
+ 
+  button.style.backgroundColor = "orange";
+  button.style.color = "white";
+  button.style.padding = "15px 30px";
+  button.style.border = "none";
+  button.style.borderRadius = "10px";
+  button.style.fontSize = "18px";
+  button.style.cursor = "pointer";
+  button.style.transition = "opacity 0.5s ease";
+
+  
+  document.body.appendChild(button);
+
+ 
+  const messages = ["Click Me Again", "Thanks", "Good Bye"];
+  let clickCount = 0;
+
+  
+  button.addEventListener("click", () => {
+    if (clickCount < messages.length) {
+      button.textContent = messages[clickCount];
+      clickCount++;
+    } else {
+      button.style.opacity = "0";
+      setTimeout(() => {
+        button.remove();
+      }, 500);
+    }
+  });
+</script>
+
+</body>
+</html>
+
+
+
+<!-- getElementById() — პოულობს ელემენტს მისი ID ის მიხედვით -->
+ <!-- querySelector() — პოულობს პირველ შესაფერის ელემენტს CSS სელექტორით -->
+<!--  textContent — შეცვლის ან წაიკითხავს ტექსტს თეგის შიგნით-->
+  <!-- getElementsByClassName() -  პოულობს ყველა ელემენტს მოცემული class-ით -->
+
+  <!-- "ID" მარტო ერთია — ამიტომ getElementById -->
+<!-- "Class" და "Tag" ბევრი შეიძლება იყოს —  ამიტომ დაწერე ის რაც თაგს და კლას პოულობს" -->
+<!-- "querySelector" = CSS-სავით მუშაობს -->

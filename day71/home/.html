@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+  <meta charset="UTF-8">
+  <title>document</title>
+  <style>
+    .highlight { background-color: yellow; }
+    .active { border: 2px solid green; }
+    .important { font-weight: bold; color: red; }
+    .red { color: red; }
+    .blue { color: blue; }
+  </style>
+</head>
+<body>
+
+  <div id="myDiv">My Div</div>
+
+  <button id="toggleButton">Toggle Active</button>
+  <div id="targetDiv">Target Div</div>
+
+  <p id="checkParagraph" class="important">Important paragraph</p>
+
+  <div id="replaceDiv" class="red">Replace Me</div>
+
+  <div id="itemDiv" class="class1 class2 class3">Item Div</div>
+
+  <ul id="myList">
+    <li>First item</li>
+    <li>Second item</li>
+    <li>Third item</li>
+  </ul>
+
+  <p id="myParagraph">Old placeholder text...</p>
+
+  <script>
+    const myDiv = document.getElementById("myDiv");
+    myDiv.classList.add("highlight");
+    myDiv.classList.remove("highlight");
+
+    const toggleButton = document.getElementById("toggleButton");
+    const targetDiv = document.getElementById("targetDiv");
+    toggleButton.addEventListener("click", () => {
+      targetDiv.classList.toggle("active");
+    });
+
+    const checkParagraph = document.getElementById("checkParagraph");
+    console.log(checkParagraph.classList.contains("important"));
+
+    const replaceDiv = document.getElementById("replaceDiv");
+    replaceDiv.classList.replace("red", "blue");
+
+    const itemDiv = document.getElementById("itemDiv");
+    console.log(itemDiv.classList.item(1));
+
+    const myList = document.getElementById("myList");
+    const newLi = document.createElement("li");
+    newLi.textContent = "New last item";
+    myList.appendChild(newLi);
+    myList.removeChild(myList.firstElementChild);
+    myList.children[1].textContent = "Updated second item";
+
+    const myParagraph = document.getElementById("myParagraph");
+    myParagraph.textContent = "New text content!";
+  </script>
+</body>
+</html>
