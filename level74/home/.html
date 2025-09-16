@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+       
+const myArray = [10, 20, 30, 40, 50];
+
+const myObject = {
+  name: "John",
+  age: 30,
+  city: "Tbilisi"
+};
+
+console.log("for...of loop (array):");
+for (const value of myArray) {
+  console.log(value);
+}
+
+
+console.log("for...in loop (array):");
+for (const index in myArray) {
+  console.log(index, myArray[index]);
+}
+
+
+console.log("for...in loop (array):");
+for (const key in myObject) {
+  console.log(key, myObject[key]);
+}
+
+
+
+const sayHello = () => "Hello World";
+console.log(sayHello());
+
+
+const add = (a, b) => a + b;
+console.log(add(5, 7)); 
+
+myArray.forEach(item => console.log(item));
+
+for (const key in myObject) {
+  console.log(`Key: ${key}, Value: ${myObject[key]}`);
+}
+
+const numbers = [1, 2, 3, 4, 5];
+const doubled = numbers.map(num => num * 2);
+console.log(doubled); 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
