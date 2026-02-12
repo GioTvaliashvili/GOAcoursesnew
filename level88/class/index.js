@@ -19,3 +19,4 @@ readFile("./text.txt", "utf8", (err, data) => {
 writeFile("./lomi.txt", "this is my first note ❤️", (err) => {
   console.log(err);
 });
+    
