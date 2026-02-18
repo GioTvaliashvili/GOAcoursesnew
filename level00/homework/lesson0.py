@@ -1,5 +1,5 @@
 from turtle import*
-#we want build a house
+
 
 #step one draw a square
 width(7)
