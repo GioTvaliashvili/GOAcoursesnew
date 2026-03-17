@@ -1,6 +1,6 @@
 
-import './App.css'
-import nav from './components/ui/nav'
+import Nav from './components/ui/Nav'
+import Header from './components/Header'
 function App() {
 
 
@@ -8,14 +8,10 @@ function App() {
     <>
       <div>
           <h2>
-              <header><h1>Welcome to my Websait!</h1></header>
-            <nav>
-              <button>1</button>
-              <button>2</button>
-              <button>3</button>
-              <button>4</button>
-              <button>5</button>
-            </nav>
+              <Header></Header><Nav></Nav>
+             
+          
+            
 
           </h2>
       </div>
