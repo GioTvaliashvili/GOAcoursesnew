@@ -1,12 +1,12 @@
-import { useContext } from "react"
-import { Context} from "../App"
+// import { useContext } from "react"
+// import { Context} from "../App"
  
-export default function HeaderSection(){
+// export default function HeaderSection(){
     
-    const {count} = useContext(Context);
-    return <div className="header">Header {count}</div>
+//      const count = useContext(Context);
+//      return <div className="header">Header {count}</div>
     
-    return
+//     return
     
     
-}
+// }
